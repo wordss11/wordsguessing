@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+#game-area {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+    position: relative;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#controls button {
+    padding: 15px 25px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+#start-button {
+    background-color: #4CAF50; /* Green */
+}
+
+#previous-button {
+    background-color: #FFC107; /* Yellow */
+}
+
+#next-button {
+    background-color: #f44336; /* Red */
+}
+
+#stop-button {
+    background-color: #000000; /* Black */
+}
+
+#input-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#guess-input {
+    padding: 15px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+#guess-button, #pass-button {
+    padding: 15px 25px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#guess-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#pass-button {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+#word-container {
+    margin: 20px 0;
+    font-size: 40px; /* Increase the font size for scrambled words */
+}
+
+#image-container img {
+    width: 300px;
+    height: auto;
+}
+
+#scrambled-word {
+    font-size: 40px; /* Increase the font size for scrambled words */
+    margin: 20px 0;
+}
+
+#result-icon {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+#score-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#timer {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#result-message {
+    font-size: 30px; /* Set the font size for result messages */
+    margin-top: 10px;
+}
+
+#correct-word {
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #f44336; /* Red color for the correct word */
+    margin-top: 10px;
+}
+

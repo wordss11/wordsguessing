@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game-area">
+            <h1>Word Guessing Game</h1>
+            <div id="controls">
+                <button id="start-button">Start</button>
+                <button id="previous-button">Previous</button>
+                <button id="next-button">Next</button>
+                <button id="stop-button">Stop</button>
+            </div>
+            <div id="word-container">
+                <div id="image-container">
+                    <img id="word-image" src="" alt="Word Image">
+                </div>
+                <p id="scrambled-word"></p>
+            </div>
+            <div id="input-controls">
+                <input type="text" id="guess-input" placeholder="Enter your guess">
+                <button id="guess-button">Guess</button>
+                <button id="pass-button">Pass</button>
+            </div>
+            <p id="result-message"></p>
+            <p id="result-icon"></p>
+            <p id="correct-word"></p> <!-- New element for showing the correct word -->
+        </div>
+        <div id="score-board">
+            <p id="timer">Time left: 0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
